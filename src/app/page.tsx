@@ -152,6 +152,8 @@ export default function LandingPage() {
         {
           text: "Call Now: (208) 630-4240",          href: "tel:2086304240"},
       ]}
+      className="bg-[url('https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiAZWDji79X7atOCtPSK4CpOon/uploaded-1774890437995-sr8l2lg2.jpg')] bg-cover bg-center bg-no-repeat"
+      containerClassName="relative isolate after:absolute after:inset-0 after:-z-10 after:bg-black/50"
     />
   </div>
 
