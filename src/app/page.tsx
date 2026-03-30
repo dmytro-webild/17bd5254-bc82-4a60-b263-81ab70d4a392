@@ -64,7 +64,7 @@ export default function LandingPage() {
           href: "tel:2086304240",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=1"
       imageAlt="Frontier Plumbing residential service"
     />
   </div>
@@ -105,7 +105,7 @@ export default function LandingPage() {
           title: "Emergency Repairs",
           subtitle: "Fast local response",
           description: "Quick solutions for leaks, clogs, and broken fixtures.",
-          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=2",
         },
         {
           id: 2,
@@ -113,7 +113,7 @@ export default function LandingPage() {
           title: "Fixture Installation",
           subtitle: "Upgrade your home",
           description: "Professional installation for sinks, faucets, and showers.",
-          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=3",
         },
         {
           id: 3,
@@ -121,7 +121,7 @@ export default function LandingPage() {
           title: "Routine Maintenance",
           subtitle: "Prevent issues early",
           description: "Regular checkups to keep your home plumbing smooth.",
-          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=4",
         },
       ]}
       title="Our Residential Services"
@@ -142,7 +142,7 @@ export default function LandingPage() {
           role: "Homeowner",
           company: "McCall Local",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg?_wi=1",
         },
         {
           id: "2",
@@ -174,7 +174,7 @@ export default function LandingPage() {
           role: "Homeowner",
           company: "McCall Local",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg?_wi=2",
         },
       ]}
       title="Trusted by Local Homeowners"
