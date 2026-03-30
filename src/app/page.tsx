@@ -30,39 +30,27 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Services",
-          id: "services",
-        },
+          name: "Services",          id: "services"},
         {
-          name: "Reviews",
-          id: "testimonials",
-        },
+          name: "Reviews",          id: "testimonials"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Frontier Plumbing"
       button={{
-        text: "Call Now",
-        href: "tel:2086304240",
-      }}
+        text: "Call Now",        href: "tel:2086304240"}}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroLogo
       logoText="Frontier Plumbing"
-      description="Professional residential plumbing services in McCall, Idaho. Trusted, reliable, and ready to help with your home plumbing needs."
+      description="Fast, reliable residential plumbing services in McCall, Idaho – on call when you need us most."
       buttons={[
         {
-          text: "Call Now: (208) 630-4240",
-          href: "tel:2086304240",
-        },
+          text: "Call Now: (208) 630-4240",          href: "tel:2086304240"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=1"
       imageAlt="Frontier Plumbing residential service"
@@ -76,17 +64,11 @@ export default function LandingPage() {
       description="Frontier Plumbing is dedicated to providing homeowners in McCall with top-tier plumbing solutions. From routine maintenance to emergency repairs, we prioritize your comfort and home safety."
       metrics={[
         {
-          value: "18",
-          title: "Google Reviews",
-        },
+          value: "18",          title: "Google Reviews"},
         {
-          value: "Local",
-          title: "Expertise",
-        },
+          value: "Local",          title: "Expertise"},
         {
-          value: "24/7",
-          title: "Care",
-        },
+          value: "24/7",          title: "Care"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/plumbing-professional-doing-his-job_23-2150721540.jpg"
       mediaAnimation="slide-up"
@@ -101,28 +83,13 @@ export default function LandingPage() {
       features={[
         {
           id: 1,
-          tag: "Fix",
-          title: "Emergency Repairs",
-          subtitle: "Fast local response",
-          description: "Quick solutions for leaks, clogs, and broken fixtures.",
-          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=2",
-        },
+          tag: "Fix",          title: "Emergency Repairs",          subtitle: "Fast local response",          description: "Quick solutions for leaks, clogs, and broken fixtures.",          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=2"},
         {
           id: 2,
-          tag: "Install",
-          title: "Fixture Installation",
-          subtitle: "Upgrade your home",
-          description: "Professional installation for sinks, faucets, and showers.",
-          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=3",
-        },
+          tag: "Install",          title: "Fixture Installation",          subtitle: "Upgrade your home",          description: "Professional installation for sinks, faucets, and showers.",          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=3"},
         {
           id: 3,
-          tag: "Main",
-          title: "Routine Maintenance",
-          subtitle: "Prevent issues early",
-          description: "Regular checkups to keep your home plumbing smooth.",
-          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=4",
-        },
+          tag: "Main",          title: "Routine Maintenance",          subtitle: "Prevent issues early",          description: "Regular checkups to keep your home plumbing smooth.",          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=4"},
       ]}
       title="Our Residential Services"
       description="We specialize in high-quality plumbing services for your home."
@@ -137,45 +104,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Sarah M.",
-          role: "Homeowner",
-          company: "McCall Local",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg?_wi=1",
-        },
+          id: "1",          name: "Sarah M.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg?_wi=1"},
         {
-          id: "2",
-          name: "David L.",
-          role: "Homeowner",
-          company: "McCall Local",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-caucasian-smiling-woman_93675-135824.jpg",
-        },
+          id: "2",          name: "David L.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-caucasian-smiling-woman_93675-135824.jpg"},
         {
-          id: "3",
-          name: "Emily B.",
-          role: "Homeowner",
-          company: "McCall Local",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/satisfied-customer-shaking-hands-with-mechanic_1170-1275.jpg",
-        },
+          id: "3",          name: "Emily B.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/satisfied-customer-shaking-hands-with-mechanic_1170-1275.jpg"},
         {
-          id: "4",
-          name: "Mark K.",
-          role: "Homeowner",
-          company: "McCall Local",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-plumber-standing-near-kitchen-sink-showing-thumb-up_1098-17823.jpg",
-        },
+          id: "4",          name: "Mark K.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-plumber-standing-near-kitchen-sink-showing-thumb-up_1098-17823.jpg"},
         {
-          id: "5",
-          name: "Jessica R.",
-          role: "Homeowner",
-          company: "McCall Local",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg?_wi=2",
-        },
+          id: "5",          name: "Jessica R.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg?_wi=2"},
       ]}
       title="Trusted by Local Homeowners"
       description="Read why our neighbors in McCall trust Frontier Plumbing."
@@ -188,20 +130,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "Do you serve all of McCall?",
-          content: "Yes, we are fully dedicated to serving all residential properties in McCall, Idaho.",
-        },
+          id: "q1",          title: "Do you serve all of McCall?",          content: "Yes, we are fully dedicated to serving all residential properties in McCall, Idaho."},
         {
-          id: "q2",
-          title: "Can I call for emergencies?",
-          content: "Absolutely, feel free to call our number at (208) 630-4240 for any urgent plumbing needs.",
-        },
+          id: "q2",          title: "Can I call for emergencies?",          content: "Absolutely, feel free to call our number at (208) 630-4240 for any urgent plumbing needs."},
         {
-          id: "q3",
-          title: "Are you licensed?",
-          content: "Yes, Frontier Plumbing is licensed and insured for residential work.",
-        },
+          id: "q3",          title: "Are you licensed?",          content: "Yes, Frontier Plumbing is licensed and insured for residential work."},
       ]}
       title="Frequently Asked Questions"
       description="Common questions about our services."
@@ -213,14 +146,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       text="Ready to get your plumbing fixed? Call Frontier Plumbing today for reliable service."
       buttons={[
         {
-          text: "Call Now: (208) 630-4240",
-          href: "tel:2086304240",
-        },
+          text: "Call Now: (208) 630-4240",          href: "tel:2086304240"},
       ]}
     />
   </div>
