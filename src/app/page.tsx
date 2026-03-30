@@ -104,23 +104,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",          name: "Sarah M.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
+          id: "1",          name: "Val Iorga",          role: "Homeowner",          company: "McCall Local",          rating: 5,
+          imageSrc: "https://ui-avatars.com/api/?name=Val+Iorga&background=random"},
+        {
+          id: "2",          name: "Laura Colson",          role: "Homeowner",          company: "McCall Local",          rating: 5,
+          imageSrc: "https://ui-avatars.com/api/?name=Laura+Colson&background=random"},
+        {
+          id: "3",          name: "Sarah M.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg?_wi=1"},
         {
-          id: "2",          name: "David L.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
+          id: "4",          name: "David L.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-caucasian-smiling-woman_93675-135824.jpg"},
         {
-          id: "3",          name: "Emily B.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
+          id: "5",          name: "Emily B.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/satisfied-customer-shaking-hands-with-mechanic_1170-1275.jpg"},
-        {
-          id: "4",          name: "Mark K.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-plumber-standing-near-kitchen-sink-showing-thumb-up_1098-17823.jpg"},
-        {
-          id: "5",          name: "Jessica R.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg?_wi=2"},
       ]}
       title="Trusted by Local Homeowners"
-      description="Read why our neighbors in McCall trust Frontier Plumbing."
+      description="Read what our neighbors in McCall have to say about Frontier Plumbing."
     />
   </div>
 
