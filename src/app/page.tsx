@@ -61,7 +61,7 @@ export default function LandingPage() {
       <MetricSplitMediaAbout
       useInvertedBackground={false}
       title="Serving the McCall Community"
-      description="Frontier Plumbing is dedicated to providing homeowners in McCall with top-tier plumbing solutions. From routine maintenance to emergency repairs, we prioritize your comfort and home safety."
+      description="Frontier Plumbing is dedicated to providing homeowners in McCall with top-tier plumbing solutions. We offer reliable, individualized plumbing options that fit your budget, ensuring exceptional work and long-term community relationships."
       metrics={[
         {
           value: "18",          title: "Google Reviews"},
@@ -83,16 +83,16 @@ export default function LandingPage() {
       features={[
         {
           id: 1,
-          tag: "Fix",          title: "Emergency Repairs",          subtitle: "Fast local response",          description: "Quick solutions for leaks, clogs, and broken fixtures.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiAZWDji79X7atOCtPSK4CpOon/uploaded-1774889947191-pxrc7ngy.jpg"},
+          tag: "Fix",          title: "Reliable Professionals",          subtitle: "Expert residential & commercial plumbing",          description: "From faucet installation to full sewer line replacements, we service water heaters, softeners, toilets, tubs, showers, and all plumbing needs inside and out.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiAZWDji79X7atOCtPSK4CpOon/uploaded-1774889947191-pxrc7ngy.jpg"},
         {
           id: 2,
-          tag: "Install",          title: "Fixture Installation",          subtitle: "Upgrade your home",          description: "Professional installation for sinks, faucets, and showers.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiAZWDji79X7atOCtPSK4CpOon/uploaded-1774890044860-r18ts0kb.jpg"},
+          tag: "Budget",          title: "Individualized Plumbing Options",          subtitle: "No pressure sales",          description: "We work to educate our customers, helping you make informed decisions that fit your budget. We are plumbers, not salesmen, focused on long-term relationships.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiAZWDji79X7atOCtPSK4CpOon/uploaded-1774890044860-r18ts0kb.jpg"},
         {
           id: 3,
-          tag: "Main",          title: "Routine Maintenance",          subtitle: "Prevent issues early",          description: "Regular checkups to keep your home plumbing smooth.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiAZWDji79X7atOCtPSK4CpOon/uploaded-1774890227557-0my4s9qq.jpg"},
+          tag: "Quality",          title: "Customer Satisfaction Guaranteed",          subtitle: "Exceptional work, fair value",          description: "Combining high-quality plumbing parts and equipment with a dedication to exceptional work, we deliver satisfactory service to all residential and commercial clients.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiAZWDji79X7atOCtPSK4CpOon/uploaded-1774890227557-0my4s9qq.jpg"},
       ]}
-      title="Our Residential Services"
-      description="We specialize in high-quality plumbing services for your home."
+      title="Our Residential & Commercial Services"
+      description="We specialize in high-quality plumbing services for your home and business."
     />
   </div>
 
