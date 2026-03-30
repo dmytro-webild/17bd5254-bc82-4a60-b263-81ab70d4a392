@@ -9,7 +9,7 @@ import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
+import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
 
 export default function LandingPage() {
   return (
@@ -97,30 +97,14 @@ export default function LandingPage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
-      <TestimonialCardOne
-      animationType="slide-up"
-      textboxLayout="default"
-      gridVariant="four-items-2x2-equal-grid"
+    <TestimonialCardFifteen
+      testimonial="Frontier Plumbing did a fantastic job with my sink installation. Fast, professional, and very knowledgeable about local McCall home systems."
+      rating={5}
+      author="Val Iorga"
+      avatars={[{ src: "https://ui-avatars.com/api/?name=Val+Iorga&background=random", alt: "Val Iorga" }]}
+      ratingAnimation="slide-up"
+      avatarsAnimation="slide-up"
       useInvertedBackground={false}
-      testimonials={[
-        {
-          id: "1",          name: "Val Iorga",          role: "Homeowner",          company: "McCall Local",          rating: 5,
-          imageSrc: "https://ui-avatars.com/api/?name=Val+Iorga&background=random"},
-        {
-          id: "2",          name: "Laura Colson",          role: "Homeowner",          company: "McCall Local",          rating: 5,
-          imageSrc: "https://ui-avatars.com/api/?name=Laura+Colson&background=random"},
-        {
-          id: "3",          name: "Sarah M.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-high-fiving-each-other-beer-pong-game_23-2149431325.jpg?_wi=1"},
-        {
-          id: "4",          name: "David L.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-caucasian-smiling-woman_93675-135824.jpg"},
-        {
-          id: "5",          name: "Emily B.",          role: "Homeowner",          company: "McCall Local",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/satisfied-customer-shaking-hands-with-mechanic_1170-1275.jpg"},
-      ]}
-      title="Trusted by Local Homeowners"
-      description="Read what our neighbors in McCall have to say about Frontier Plumbing."
     />
   </div>
 
