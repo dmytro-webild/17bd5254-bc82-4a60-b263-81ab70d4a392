@@ -70,7 +70,7 @@ export default function LandingPage() {
         {
           value: "24/7",          title: "Care"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/plumbing-professional-doing-his-job_23-2150721540.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiAZWDji79X7atOCtPSK4CpOon/uploaded-1774889775071-csi3atmo.jpg"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
     />
