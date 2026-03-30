@@ -52,8 +52,8 @@ export default function LandingPage() {
         {
           text: "Call Now: (208) 630-4240",          href: "tel:2086304240"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=1"
-      imageAlt="Frontier Plumbing residential service"
+      imageSrc="http://img.b2bpic.net/free-photo/plumbing-tools-pipe-wrench-fitting-background_23-2148766164.jpg?_wi=1"
+      imageAlt="Frontier Plumbing residential service tools"
     />
   </div>
 
