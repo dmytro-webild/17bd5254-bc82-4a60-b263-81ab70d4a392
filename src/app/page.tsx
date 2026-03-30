@@ -52,7 +52,7 @@ export default function LandingPage() {
         {
           text: "Call Now: (208) 630-4240",          href: "tel:2086304240"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/plumbing-tools-pipe-wrench-fitting-background_23-2148766164.jpg?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiAZWDji79X7atOCtPSK4CpOon/uploaded-1774889559757-6iohsgvx.jpg"
       imageAlt="Frontier Plumbing residential service tools"
     />
   </div>
