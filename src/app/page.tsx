@@ -83,7 +83,7 @@ export default function LandingPage() {
       features={[
         {
           id: 1,
-          tag: "Fix",          title: "Emergency Repairs",          subtitle: "Fast local response",          description: "Quick solutions for leaks, clogs, and broken fixtures.",          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=2"},
+          tag: "Fix",          title: "Emergency Repairs",          subtitle: "Fast local response",          description: "Quick solutions for leaks, clogs, and broken fixtures.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiAZWDji79X7atOCtPSK4CpOon/uploaded-1774889947191-pxrc7ngy.jpg"},
         {
           id: 2,
           tag: "Install",          title: "Fixture Installation",          subtitle: "Upgrade your home",          description: "Professional installation for sinks, faucets, and showers.",          imageSrc: "http://img.b2bpic.net/free-photo/sanitary-technician-gesturing-thumb-up_23-2147772204.jpg?_wi=3"},
